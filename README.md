@@ -26,5 +26,5 @@ Now the application is ready to use. Run this command in the terminal: streamlit
 
 After the application opens in separate website you can upload your PDF file and inquire it. Remember not to upload PDF file larger than 200MB otherwise it will hit the limit.
 
-![plot](GUI image.png)
+![](GUI%20image.png)
 
