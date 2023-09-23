@@ -25,3 +25,5 @@ Donot forget to add your OpenAI API key to the .env file.
 Now the application is ready to use. Run this command in the terminal: streamlit run app.py
 
 After the application opens in separate website you can upload your PDF file and inquire it. Remember not to upload PDF file larger than 200MB otherwise it will hit the limit.
+
+![alt text](http://url/to/img.png)
