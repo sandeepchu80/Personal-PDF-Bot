@@ -11,11 +11,11 @@ from langchain.callbacks import get_openai_callback
 
 def main():
     load_dotenv()
-    st.set_page_config(page_title="Ask your PDF")
-    st.header("Ask your PDF 💬")
+    st.set_page_config(page_title="Personal PDF Bot")
+    st.header("Query your PDF 💬")
     
     # upload file
-    pdf = st.file_uploader("Upload your PDF", type="pdf")
+    pdf = st.file_uploader("Upload PDF", type="pdf")
     
     # extract the text
     if pdf is not None:
@@ -44,9 +44,9 @@ def main():
         
         llm = OpenAI()
         chain = load_qa_chain(llm, chain_type="stuff")
-        with get_openai_callback() as cb:
+        with get_openai_callback() as c:
           response = chain.run(input_documents=docs, question=user_question)
-          print(cb)
+          print(c)
            
         st.write(response)
     
