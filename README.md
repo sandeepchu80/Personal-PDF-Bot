@@ -1,3 +1,5 @@
+![](GUI%80image.png)
+
 # Personal-PDF-Bot
 This documentaion helps the user to create a GUI in oder to upload their personal PDF files for asking questions related to that PDF files or to summarize it. Thus leverages the work of the user!
 
@@ -26,5 +28,5 @@ Now the application is ready to use. Run this command in the terminal: streamlit
 
 After the application opens in separate website you can upload your PDF file and inquire it. Remember not to upload PDF file larger than 200MB otherwise it will hit the limit.
 
-![](GUI%50image.png)
+
 
