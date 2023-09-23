@@ -1,8 +1,7 @@
 # Personal-PDF-Bot
 This documentaion helps the user to create a GUI in oder to upload their personal PDF files for asking questions related to that PDF files or to summarize it. Thus leverages the work of the user!
 
-Utilizing ChatGPT for personal PDF files with the help of langchain
-This Python application enables the user to import a PDF document and inquire about its content using natural language. The application leverages a Large Language Model (LLM) to generate responses based on the PDF's content.
+Utilizing GPT-3.5 (ChatGPT) for personal PDF files with the help of langchain, this Python application enables the user to import a PDF document and inquire about its content using natural language. The application leverages a Large Language Model (LLM) to generate responses based on the PDF's content.
 
 Working Mechanism
 The program processes a PDF document by segmenting its text into smaller units, which are subsequently converted into vector representations using OpenAI embeddings. Next, it identifies text segments that bear semantic resemblance to the user's inquiry and supplies these segments to a Language Model (LLM) for generating a response.
